@@ -5,6 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+
 ::selection {
   color: #000;
   background: #fff;
@@ -116,8 +118,9 @@ nav .menu {
   background: white;
   color: black;
 }
-.form-body{
+.center{
   background-color: aliceblue;
   width: 70%;
+  height: 800px;
   color: #000;
 }

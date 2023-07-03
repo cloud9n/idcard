@@ -53,16 +53,27 @@ move_uploaded_file($_FILES["file"]["tmp_name"], $target_file);
     <div class="img"></div>
     <div class="form-body">
     <div class="center">
-        <div class="form-body">
+        <div class="form-body" >
+            <div class="f-f" style="margin-top:150px;">
+            <h3>Please fill in the form below with the neccesary information to eneble us process your ID card Efficiently</h3>
+            <br>
 
-            <form action="register.php" method="post" enctype="multipart/form-data">
-                <input type="text" name="name" id="name" placeholder="Enter Your Full Name"/><br>
-                <input type="text" name="matric" id="matric" placeholder="Matric Number"/><br>
-                <input type="text" name="address" id="address" placeholder="Address"/><br>
-                <input type="text" name="department" id="department" placeholder="Department "/><br>
-                <input type="text" name="adm_year" id="adm_year" placeholder="Admission year"/><br>
-                <input type="file" name="file" id="file" /><br>
-                <button type="submit" name="submit">Sumit Details</button>
+                <form action="register.php" method="post" enctype="multipart/form-data">
+                    <label for="name">Enter Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name"/><br>
+                    <label for="matric"> Enter Reg. No.</label>
+                    <input type="text" name="matric" id="matric" placeholder="Matric Number"/><br>
+                    <label for="address"> Address</label>
+                    <input type="text" name="address" id="address" placeholder="Address"/><br>
+                    <label for="department">Department</label>
+                    <input type="text" name="department" id="department" placeholder="Department "/><br>
+                    <label for="adm_year"> Year of Admission</label>
+                    <input type="text" name="adm_year" id="adm_year" placeholder="Admission year"/><br>
+                    <label for="file"> Upload Passport</label>
+                    <input type="file" name="file" id="file" /><br>
+                    <button type="submit" name="submit">Sumit Details</button>
+            </div>
+
             </div>
     </div>
    
