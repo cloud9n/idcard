@@ -124,3 +124,15 @@ nav .menu {
   height: 800px;
   color: #000;
 }
+form > input{
+  width: 400px;
+  margin-top: 30px;
+  border-radius:10px ;
+  height: 40px;
+}
+form > button {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
